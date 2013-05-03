@@ -1,0 +1,9 @@
+.reveal h1 {
+	font-family: New Rocker, cursive;
+	text-transform: none;
+}
+
+::selection,
+.reveal .progress span {
+	background: hsl(60, 80%, 40%);
+}

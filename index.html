@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The History of Heavy Metal</title>
+		<link rel="stylesheet" href="components/reveal.js/css/reveal.min.css">
+		<link rel="stylesheet" href="components/reveal.js/css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=New+Rocker">
+		<link rel="stylesheet" href="custom.css">
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-markdown>
+					# The History of Heavy Metal
+					### Benjamin Knight &amp; Andrew Tribone
+					### May 3, 2013
+				</section>
+
+				<section data-markdown>
+					## Origins
+				</section>
+
+				<section>
+					<iframe width="960" height="720" src="http://www.youtube.com/embed/qpZ18recO9A?iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
+				</section>
+
+				<section>
+					<img src="assets/metal-logos.jpg" alt="Taxonomy of metal logos">
+				</section>
+
+				<section>
+					<h2>The Tritone</h2>
+					<iframe src="https://embed.spotify.com/?uri=spotify:track:4BYGxv4rxSNcTgT3DsFB9o" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="components/reveal.js/lib/js/head.min.js"></script>
+		<script src="components/reveal.js/js/reveal.min.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme,
+				transition: Reveal.getQueryHash().transition || 'default',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'components/reveal.js/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+	</body>
+</html>
